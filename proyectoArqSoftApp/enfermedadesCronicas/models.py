@@ -18,7 +18,7 @@ class Paciente(models.Model):
     impresionPersonal = models.CharField(max_length=400)
 
     def __str__(self):
-        return "nombre: " + self.nombre + " apellidos: " + self.apellidos + " telefono: " + self.telefono
+        return "nombre: " + self.nombre
 
 
 
